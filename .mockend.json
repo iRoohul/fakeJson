@@ -1,5 +1,5 @@
 {
-    "home": {
+    "Home": {
         "success": 1,
         "data": { "title": "Home" },
         "cacheable_items": [],
