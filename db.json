@@ -1,51 +1,755 @@
-{"hello": {
-  "type": "grid",
-  "direction": "horizontal",
-  "kind": "with_space",
-  "columns": {
-    "sm": 1.2,
-    "md": 1.7999999999999998,
-    "lg": 2.4
-  },
-  "common_item_config": {
-    "stroke": true,
-    "type": "image_only",
-    "image_aspect": {
-      "sm": 2.07
-    },
-    "image_shape": "rounded"
-  },
-  "items": [
+{
+  "success": 1,
+  "data": { "title": "Home" },
+  "cacheable_items": [],
+  "page_data": [
     {
-      "url": "?title=Resuming%20Delivery%20Banner",
-      "image_url": {
-        "sm": "1WiHcIc3W_ZO39r7LP_R3v0sOrak7sPQg.jpg"
-      }
+      "type": "grid",
+      "direction": "horizontal",
+      "kind": "with_space",
+      "columns": {
+        "sm": 1.2,
+        "md": 1.7999999999999998,
+        "lg": 2.4
+      },
+      "common_item_config": {
+        "stroke": true,
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.07
+        },
+        "image_shape": "rounded"
+      },
+      "items": [
+        {
+          "url": "?title=Resuming%20Delivery%20Banner",
+          "image_url": {
+            "sm": "1WiHcIc3W_ZO39r7LP_R3v0sOrak7sPQg.jpg"
+          }
+        },
+        {
+          "url": "/featured/stay-home-print-memories?title=Stay%20Home,%20Print%20Memories",
+          "image_url": {
+            "sm": "1-TaWY85GCrNLyOEpa3tnU1acicwUdhQb.jpg"
+          }
+        },
+        {
+          "url": "/featured/poster-collage?title=Poster%20Collage%20Designs",
+          "image_url": {
+            "sm": "1C4frN7XZXTF8oAjjA3a6Fx3ptBQp4Tc2.jpg"
+          }
+        },
+        {
+          "url": "/featured/prints-on-the-wall?title=Prints%20Prints%20on%20the%20Wall!",
+          "image_url": {
+            "sm": "1eS8hhfBdJp_kbde0Vb5nBzTAsN8gGa2U.jpg"
+          }
+        },
+        {
+          "url": "/featured/small-prints-big-joys?title=Small%20Prints,%20Big%20Joys",
+          "image_url": {
+            "sm": "16Q6URM-sMWSoQSScFy-EC1UqaBBRfF2h.jpg"
+          }
+        }
+      ],
+      "background": "#ffffff"
     },
     {
-      "url": "/featured/stay-home-print-memories?title=Stay%20Home,%20Print%20Memories",
-      "image_url": {
-        "sm": "1-TaWY85GCrNLyOEpa3tnU1acicwUdhQb.jpg"
-      }
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "title": "NEW ARRIVALS",
+      "columns": {
+        "sm": 2.2,
+        "md": 3.3000000000000003,
+        "lg": 4.4
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "type": "text_below_image",
+        "image_aspect": {
+          "sm": 1
+        },
+        "alignment": "center"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1et_r1HSgR_XYmcDEP6RmxHrqkgjISDFj.jpg"
+          },
+          "title": "Birthday Bomb",
+          "url": "/products/photo_book/birthday-bombs?title=Birthday%20Bomb"
+        },
+        {
+          "image_url": {
+            "sm": "1zcAnXwd0EtkpwW2bKniPuP6DC-6vtDKe.jpg"
+          },
+          "title": "Post It",
+          "url": "/products/photo_book/post-it?title=Post%20It"
+        },
+        {
+          "image_url": {
+            "sm": "1dBR7dStxO0uE4hoT4lW4VKSX8XMeQof8_v2.jpg"
+          },
+          "url": "/featured/new-arrivals?title=New%20Arrivals"
+        }
+      ]
     },
     {
-      "url": "/featured/poster-collage?title=Poster%20Collage%20Designs",
-      "image_url": {
-        "sm": "1C4frN7XZXTF8oAjjA3a6Fx3ptBQp4Tc2.jpg"
-      }
+      "type": "carousel",
+      "kind": "with_space",
+      "show_indicator": false,
+      "columns": {
+        "sm": 1,
+        "md": 2
+      },
+      "common_item_config": {
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.65
+        },
+        "stroke": true,
+        "image_shape": "rounded"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1lUKlOcT2HqH3bh9MBKGFKSforp1d-ISq.jpg"
+          },
+          "url": "/featured/framed-products?title=Frames"
+        }
+      ],
+      "background": "#ffffff",
+      "mergeable": true
     },
     {
-      "url": "/featured/prints-on-the-wall?title=Prints%20Prints%20on%20the%20Wall!",
-      "image_url": {
-        "sm": "1eS8hhfBdJp_kbde0Vb5nBzTAsN8gGa2U.jpg"
-      }
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "title": "HOUSE OF BASICS",
+      "columns": {
+        "sm": 2.2,
+        "md": 3.3000000000000003,
+        "lg": 4.4
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "type": "text_below_image",
+        "image_aspect": {
+          "sm": 1
+        },
+        "alignment": "center"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1jCW8aJiig02MvRZY_Z0paIHhE02iYH00.jpg"
+          },
+          "title": "Vogue Gallery",
+          "url": "/products/photo_book/vogue-gallery?title=Vogue%20Gallery"
+        },
+        {
+          "image_url": {
+            "sm": "1BL6x3NkgjrnGbkbAEJlru_RDibqF6pDf.jpg"
+          },
+          "title": "Picscribe",
+          "url": "/products/photo_book/picscribe?title=Picscribe"
+        },
+        {
+          "image_url": {
+            "sm": "1FDeVW7tfkyvvdTWNXqcyONxguoGJpNdM.jpg"
+          },
+          "title": "Memory Canvas",
+          "url": "/products/photo_book/memory-canvas?title=Memory%20Canvas"
+        },
+        {
+          "image_url": {
+            "sm": "1xAATz6rYCajJzjHWvMNjYlC5sxZ4mCg1.jpg"
+          },
+          "url": "/featured/photo-books?title=Photo%20Book%20Designs"
+        }
+      ]
     },
     {
-      "url": "/featured/small-prints-big-joys?title=Small%20Prints,%20Big%20Joys",
-      "image_url": {
-        "sm": "16Q6URM-sMWSoQSScFy-EC1UqaBBRfF2h.jpg"
-      }
+      "type": "carousel",
+      "kind": "with_space",
+      "show_indicator": false,
+      "columns": {
+        "sm": 1,
+        "md": 2
+      },
+      "common_item_config": {
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.65
+        },
+        "stroke": true,
+        "image_shape": "rounded"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "198rGOlrmmtF5OMwLHrKBiivzGyCoU0JS.jpg"
+          },
+          "url": "/featured/decor-delight?title=Decor%20Delight"
+        }
+      ],
+      "background": "#ffffff",
+      "mergeable": true
+    },
+    {
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "title": "MOST LOVED PHOTO BOOKS",
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "columns": {
+        "sm": 2.2,
+        "md": 3.3000000000000003,
+        "lg": 4.4
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "type": "text_below_image",
+        "image_aspect": {
+          "sm": 1
+        },
+        "alignment": "center"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1tIfj3aj9rff38Pssm4jkQX3cSawGGls4.jpg"
+          },
+          "title": "Tiny Treasure",
+          "url": "/products/photo_book/tiny-treasure?title=Tiny%20Treasure"
+        },
+        {
+          "image_url": {
+            "sm": "1gxbAccNNU3wtCh8D1g6P8l1m4mOFRS1N.jpg"
+          },
+          "title": "Book Of Love",
+          "url": "/products/photo_book/book-of-love?title=Book%20Of%20Love"
+        },
+        {
+          "image_url": {
+            "sm": "1KkH0kDg3lKcIeqn1ckmOOM9qiBO5XKJR.jpg"
+          },
+          "title": "Forever & Beyond",
+          "url": "/products/photo_book/forever_n_beyond?title=Forever%20&%20Beyond"
+        },
+        {
+          "image_url": {
+            "sm": "1oKGkbUP3RXorCEyL3Uviui_JtdR3KJuq.jpg"
+          },
+          "title": "Birthday Bash",
+          "url": "/products/photo_book/birthday_bash?title=Birthday%20Bash"
+        },
+        {
+          "image_url": {
+            "sm": "14_mixwczInWik_tBfE9qnMdM-45AsJYD.jpg"
+          },
+          "title": "Classic Black",
+          "url": "/products/photo_book/classic_black?title=Classic%20Black"
+        },
+        {
+          "image_url": {
+            "sm": "1dBR7dStxO0uE4hoT4lW4VKSX8XMeQof8_v2.jpg"
+          },
+          "url": "/featured/photo-books?title=Photo%20Book%20Designs"
+        }
+      ]
+    },
+    {
+      "type": "carousel",
+      "kind": "with_space",
+      "show_indicator": false,
+      "columns": {
+        "sm": 1,
+        "md": 2
+      },
+      "common_item_config": {
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.65
+        },
+        "stroke": true,
+        "image_shape": "rounded"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1PJTcCeo6dNFXymkv41coriKi7zVBBaBT.jpg"
+          },
+          "url": "/featured/occasions?title=Occasions"
+        }
+      ],
+      "background": "#ffffff",
+      "mergeable": true
+    },
+    {
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "title": "COLLAGES ON THE GO",
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "columns": {
+        "sm": 2.4,
+        "md": 3.5999999999999996,
+        "lg": 4.8
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "alignment": "center",
+        "type": "text_below_image",
+        "image_aspect": {
+          "sm": 0.65
+        }
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1uvAMX6HFujjUbNJ2cab4hmwr3oP4S7w0.jpg"
+          },
+          "title": "Memory Rush",
+          "url": "/products/poster-collage/anniversary?title=Memory%20Rush"
+        },
+        {
+          "image_url": {
+            "sm": "1M6hmtDvQemBQXgXJUgAb4Duf0n8u_yFB.jpg"
+          },
+          "title": "Better Half",
+          "url": "/products/poster-collage/better-half?title=Better%20Half"
+        },
+        {
+          "image_url": {
+            "sm": "1mTEu_PHdaCLf1qaM5LX9CpEBphVjDJQq.jpg"
+          },
+          "title": "Abstract Black",
+          "url": "/products/poster-collage/abstract-black?title=Abstract%20Black"
+        },
+        {
+          "image_url": {
+            "sm": "17LqKANIb24Ww8clLMl6H4nSm1aBOgoqY.jpg"
+          },
+          "title": "Pupparazzi",
+          "url": "/products/poster-collage/pupparazzi?title=Pupparazzi"
+        },
+        {
+          "image_url": {
+            "sm": "1USoN9-zLb_6Z104D6B068auY-gc0UkEX.jpg"
+          },
+          "url": "/featured/poster-collage?title=Poster%20Collage%20Designs"
+        }
+      ]
+    },
+    {
+      "type": "carousel",
+      "kind": "with_space",
+      "show_indicator": false,
+      "columns": {
+        "sm": 1,
+        "md": 2
+      },
+      "common_item_config": {
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.65
+        },
+        "stroke": true,
+        "image_shape": "rounded"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1odscv3hLP0KJC8jdYn_61hOFzu3Py3fP.jpg"
+          },
+          "url": "/featured/travel-treat?title=Travel%20Treat"
+        }
+      ],
+      "background": "#ffffff",
+      "mergeable": true
+    },
+    {
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "title": "ITSY-BITSY PRINTS",
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "columns": {
+        "sm": 2.25,
+        "md": 3.375,
+        "lg": 4.5
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "type": "text_below_image",
+        "image_aspect": {
+          "sm": 1
+        },
+        "alignment": "center"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1BayuQaEGO5AIgo_P2-77Pyc8ikkCUgIX.jpg"
+          },
+          "title": "Card Prints",
+          "url": "/products/square?title=Card%20Prints"
+        },
+        {
+          "image_url": {
+            "sm": "1HiJxhjeGxrr6_tL0KqGeNEndnIUvPmHF_v2.jpg"
+          },
+          "title": "Classics",
+          "url": "/products/classic?title=Classics"
+        },
+        {
+          "image_url": {
+            "sm": "1sW8i6H6weoTES3BzdKtKkWC3SSYIwDee_v2.jpg"
+          },
+          "title": "Signatures",
+          "url": "/products/signature?title=Signatures"
+        },
+        {
+          "image_url": {
+            "sm": "1imxLQ1Fu_jfVMuqiexoVgZ7eU95EmZKW.jpg"
+          },
+          "title": "Mosaic",
+          "url": "/products/mosaic?title=Mosaic"
+        },
+        {
+          "image_url": {
+            "sm": "1-L8cE7HEHtmTfdqEv0iQFlbHNP0N5CEk.jpg"
+          },
+          "title": "Photo Strips",
+          "url": "/products/strip?title=Photo%20Strips"
+        }
+      ]
+    },
+    {
+      "type": "carousel",
+      "kind": "with_space",
+      "show_indicator": false,
+      "columns": {
+        "sm": 1,
+        "md": 2
+      },
+      "common_item_config": {
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.65
+        },
+        "stroke": true,
+        "image_shape": "rounded"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1FEWk3crghLmvOZVo3YzQDn8q33mJmnrR.jpg"
+          },
+          "url": "/featured/childrens-day-special?title=Children's%20Special"
+        }
+      ],
+      "background": "#ffffff",
+      "mergeable": true
+    },
+    {
+      "type": "grid",
+      "direction": "horizontal",
+      "title": "WALL OF MEMORIES",
+      "mergeable": true,
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "columns": {
+        "sm": 2.2,
+        "md": 3.3000000000000003,
+        "lg": 4.4
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "type": "text_below_image",
+        "image_shape": "rounded",
+        "alignment": "center",
+        "image_aspect": {
+          "sm": 1
+        }
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1mm8ofNDnb_G8lqPI-fh52WKQkOL2v4G0.jpg"
+          },
+          "title": "Wallographs",
+          "url": "/products/wallographs?title=Wallographs"
+        },
+        {
+          "image_url": {
+            "sm": "1egyrhBo0jDyIdpgcdoIqoKDXkx46tsUX_v2.jpg"
+          },
+          "title": "Photo Strips",
+          "url": "/products/strip?title=Photo%20Strips"
+        },
+        {
+          "image_url": {
+            "sm": "1jPNPQEisE77T3-SNEFxH0PlESHiUhFub.jpg"
+          },
+          "title": "Poster Grid",
+          "url": "/products/poster?title=Poster%20Grid"
+        },
+        {
+          "image_url": {
+            "sm": "176kV1scPxR9H3m1imc9EZrl3qNzXNtqA.jpg"
+          },
+          "title": "Panorama",
+          "url": "/products/pano?title=Panorama"
+        }
+      ]
+    },
+    {
+      "type": "carousel",
+      "kind": "with_space",
+      "show_indicator": false,
+      "columns": {
+        "sm": 1,
+        "md": 2
+      },
+      "mergeable": true,
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 2.65
+        }
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1bqHaDkU3HwuPLz8paIlnj3rXVPBhnxTI.jpg"
+          },
+          "url": "/user/rewards?title=Refer%20and%20Earn"
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "title": "DESIGNERS IN FOCUS",
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "columns": {
+        "sm": 3,
+        "md": 4.5,
+        "lg": 6
+      },
+      "background": "#ffffff",
+      "common_item_config": {
+        "image_shape": "circle",
+        "small_font": true,
+        "type": "text_below_image",
+        "image_aspect": {
+          "sm": 1
+        },
+        "alignment": "center"
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "https://pixylz-content.s3.amazonaws.com/original/5b7fccf6726af63435456114_profile_image.jpeg"
+          },
+          "title": "Vinita Varier",
+          "url": "/designers/that.crazy.doodler?title=Vinita%20Varier"
+        },
+        {
+          "image_url": {
+            "sm": "https://pixylz-content.s3.amazonaws.com/original/5b7fccfd726af63435456116_profile_image.jpeg"
+          },
+          "title": "Sweta Bisht",
+          "url": "/designers/swetab.sht?title=Sweta%20Bisht"
+        },
+        {
+          "title": "Simran Dhiman",
+          "url": "/designers/midnightscribbler?title=Simran%20Dhiman",
+          "image_url": {
+            "sm": "midnightscribbler_profile_image.jpg"
+          }
+        },
+        {
+          "image_url": {
+            "sm": "https://pixylz-content.s3.amazonaws.com/original/5b7fccfa726af63435456115_profile_image.jpeg"
+          },
+          "title": "Anupriya Dutta Gupta",
+          "url": "/designers/arterybyhb?title=Anupriya%20Dutta%20Gupta"
+        },
+        {
+          "image_url": {
+            "sm": "https://pixylz-content.s3.amazonaws.com/original/5bd0985190aeb744b6bd4d0a_profile_image.jpeg"
+          },
+          "title": "Abhiraami Thangavel",
+          "url": "/designers/thepixiedustbyat?title=Abhiraami%20Thangavel"
+        },
+        {
+          "image_url": {
+            "sm": "https://pixylz-content.s3.amazonaws.com/original/5be920b290aeb72ea63cbce5_profile_image.jpeg"
+          },
+          "title": "Shefali Goel ",
+          "url": "/designers/cheesenletters?title=Shefali%20Goel%20"
+        },
+        {
+          "image_url": {
+            "sm": "https://pixylz-content.s3.amazonaws.com/original/5bd0971c726af67eded57700_profile_image.jpeg"
+          },
+          "title": "Diksha",
+          "url": "/designers/diksha_2896?title=Diksha"
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "direction": "horizontal",
+      "mergeable": true,
+      "title": "YOUR EXPERIENCE MATTERS",
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "columns": {
+        "sm": 1.25,
+        "md": 1.875,
+        "lg": 2.5
+      },
+      "kind": "with_space",
+      "background": "#ffffff",
+      "common_item_config": {
+        "stroke": true,
+        "image_shape": "rounded",
+        "type": "image_only",
+        "image_aspect": {
+          "sm": 1.87
+        }
+      },
+      "items": [
+        {
+          "image_url": {
+            "sm": "1pC9Wsb3jTQ87_otZojh4eyfZnAdxuDQY.jpg"
+          }
+        },
+        {
+          "image_url": {
+            "sm": "1w0nI0o3iaZ1jFFbgK4co31W7R2pqI-Aq.jpg"
+          }
+        },
+        {
+          "image_url": {
+            "sm": "11SP2IS6a6KPjRo1RrIDifR3Xh-hzAEk5.jpg"
+          }
+        },
+        {
+          "image_url": {
+            "sm": "1bnfcbrOU82i5-YdPdK2Fio-ANLwt10FS.jpg"
+          }
+        },
+        {
+          "image_url": {
+            "sm": "1dfxpAf7Pibed8mk4Ru_ev5CeiZrHynyI.jpg"
+          },
+          "url": "/featured/customer-testimonials?title=Your%20Experience%20Matters"
+        }
+      ]
+    },
+    {
+      "type": "grid",
+      "direction": "vertical",
+      "mergeable": true,
+      "title": "BEYOND PICTURES | PIXYLZ BLOG",
+      "accent_color": "#ff5959",
+      "draws_accent": true,
+      "background": "#ffffff",
+      "columns": {
+        "sm": 1,
+        "md": 1,
+        "lg": 2
+      },
+      "common_item_config": {
+        "container_stroke": true,
+        "container_shape": "rounded",
+        "type": "text_to_side_of_image",
+        "image_aspect": {
+          "sm": 1.5
+        }
+      },
+      "items": [
+        {
+          "text_bg_color": "#F6F6F6",
+          "image_url": {
+            "sm": "1udES_sOjSf-yYoWM1OVWZERJUO94kqZn.jpg"
+          },
+          "title": "Pixylz products based on personality types",
+          "desc": "Are you a Pixylz’ loyalist or a new user? Be it a gift or a keepsake of memories, do you find yourself confused while choosing from the endless products Pixylz has to offer? We are here to provide you a perfect guide to choose Pixylz products based on personality types.",
+          "url": "https://blog.pixylz.com/2020/01/03/pixylz-products-based-on-personality-types/"
+        },
+        {
+          "text_bg_color": "#F6F6F6",
+          "image_url": {
+            "sm": "1Eh9GQsqWG96kGElgcaZ6yn2iOxvs-plz.jpg"
+          },
+          "title": "Revamp Your Spaces with Large Wall Art",
+          "desc": "Our personal spaces are our comfort zones. It’s time to fill your space with “Good Vibes Only” with Pixylz Wallographs. Break the monotony of blank walls. Revamp your place for a personal and cozy vibe with quick and easy large wall art.",
+          "url": "https://blog.pixylz.com/2019/11/07/large-wall-art-ideas/"
+        },
+        {
+          "text_bg_color": "#F6F6F6",
+          "image_url": {
+            "sm": "1vhlZZlz63geV3TnE6bfFBJP4oDzCsy8G.jpg"
+          },
+          "title": "Best Ways To Make Use Of Square Photo Prints!",
+          "desc": "You must have seen and probably saved too, a lot of pins involving Square Photo Prints on Pinterest where people show off their gorgeous photo walls, photo journals, or collages. Well, it’s time to try out your saved pins!",
+          "url": "https://blog.pixylz.com/2018/05/25/square-photo-prints-ideas/#more-647"
+        },
+        {
+          "text_bg_color": "#F6F6F6",
+          "image_url": {
+            "sm": "1ZTMVE1-YvFyOz8PpcXlgwWfe0OhCaJhr.jpg"
+          },
+          "title": "5 Reasons to Gift Photo Books only with Pixylz",
+          "desc": "Every day you come across new websites and mobile apps that claim to bring back memories. But, how many of these applications are user-friendly? We, at Pixylz, understand the need to preserve memories and our photo books radiate this ideology.",
+          "url": "https://blog.pixylz.com/2019/07/12/why-gift-photo-books-with-pixylz/#more-798"
+        },
+        {
+          "text_bg_color": "#F6F6F6",
+          "image_url": {
+            "sm": "14bs-12CuPR15XZB1ds_WTWJyDt6K0beR.jpg"
+          },
+          "title": "Best ways of using Signature Prints",
+          "desc": "Don’t we all love the polaroid photo prints and the little space below them to write something? With Pixylz’s Signature prints you can now convert any photo into a polaroid photo from the comfort of your home.",
+          "url": "https://blog.pixylz.com/2018/07/02/signature-prints-are-the-new-polaroid/#more-714"
+        }
+      ]
     }
-  ],
-  "background": "#ffffff"
-}}
+  ]
+}
