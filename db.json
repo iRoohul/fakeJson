@@ -1,0 +1,51 @@
+{
+  "type": "grid",
+  "direction": "horizontal",
+  "kind": "with_space",
+  "columns": {
+    "sm": 1.2,
+    "md": 1.7999999999999998,
+    "lg": 2.4
+  },
+  "common_item_config": {
+    "stroke": true,
+    "type": "image_only",
+    "image_aspect": {
+      "sm": 2.07
+    },
+    "image_shape": "rounded"
+  },
+  "items": [
+    {
+      "url": "?title=Resuming%20Delivery%20Banner",
+      "image_url": {
+        "sm": "1WiHcIc3W_ZO39r7LP_R3v0sOrak7sPQg.jpg"
+      }
+    },
+    {
+      "url": "/featured/stay-home-print-memories?title=Stay%20Home,%20Print%20Memories",
+      "image_url": {
+        "sm": "1-TaWY85GCrNLyOEpa3tnU1acicwUdhQb.jpg"
+      }
+    },
+    {
+      "url": "/featured/poster-collage?title=Poster%20Collage%20Designs",
+      "image_url": {
+        "sm": "1C4frN7XZXTF8oAjjA3a6Fx3ptBQp4Tc2.jpg"
+      }
+    },
+    {
+      "url": "/featured/prints-on-the-wall?title=Prints%20Prints%20on%20the%20Wall!",
+      "image_url": {
+        "sm": "1eS8hhfBdJp_kbde0Vb5nBzTAsN8gGa2U.jpg"
+      }
+    },
+    {
+      "url": "/featured/small-prints-big-joys?title=Small%20Prints,%20Big%20Joys",
+      "image_url": {
+        "sm": "16Q6URM-sMWSoQSScFy-EC1UqaBBRfF2h.jpg"
+      }
+    }
+  ],
+  "background": "#ffffff"
+}
